@@ -17,7 +17,7 @@ const WishlistPage = () => {
     width={1440}
     height={316}
     className="w-full object-cover"
-  />
+   />
   <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-black">
     <h2 className="font-medium text-3xl lg:text-5xl mb-4">Wishlist</h2>
     <div className="flex justify-center items-center gap-1 text-black">
@@ -35,7 +35,7 @@ const WishlistPage = () => {
                 key={product._id}
                 className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center"
               >
-                <img
+                <Image
                   src={product.productImage}
                   alt={product.title}
                   className="w-32 h-32 object-cover rounded-md mb-2"
